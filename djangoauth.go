@@ -1,4 +1,4 @@
-package auth
+package djangoauth
 /*
 #############################################
 # File Name: djangopwd.go
