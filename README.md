@@ -9,7 +9,8 @@ import (
 )
 
 func main() {
-    b :=auth.Verify("vemuservemuser","pbkdf2_sha256$30000$TFKTX5dwlI77$onGTTQkvwGujhrctWUK/XKXFvkAoQfO4NRY6MpPK+Bw=")
+   //Verify（密码，数据库保存的密码字符串）
+    b :=auth.Verify("vemuservemuser","pbkdf2_sha256$30000$TFKTX5dwlI77$onGTTQkvwGujhrctWUK/XKXFvkAoQfO4NRY6MpPK+Bw=")
     fmt.Println(b)
 }
 
